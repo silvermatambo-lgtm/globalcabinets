@@ -1,0 +1,21 @@
+{
+  "id": "/",
+  "name": "Global Cabinets Hub",
+  "short_name": "Global Cabinets",
+  "description": "Browse kitchen cabinetry, wardrobes and TV units from Global Cabinets Hub.",
+  "lang": "en-ZA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#211d19",
+  "background_color": "#f7f4ed",
+  "icons": [
+    {"src":"/assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"/assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"/assets/icon-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ],
+  "shortcuts": [
+    {"name":"Cabinetry gallery","url":"/gallery","icons":[{"src":"/assets/icon-192.png","sizes":"192x192"}]},
+    {"name":"Contact & quotes","url":"/contact","icons":[{"src":"/assets/icon-192.png","sizes":"192x192"}]}
+  ]
+}

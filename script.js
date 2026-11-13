@@ -29,7 +29,7 @@
     const start = () => { stop(); if (!paused && !hovering && !focused && !document.hidden) timer = setInterval(() => slideTo(index + 1), 6800); };
     const updatePause = () => {
       if (pause) {
-        pause.textContent = paused ? '▶' : 'Ⅱ';
+        pause.textContent = paused ? '▶' : 'II';
         pause.setAttribute('aria-label', paused ? 'Play slideshow' : 'Pause slideshow');
       }
       start();
